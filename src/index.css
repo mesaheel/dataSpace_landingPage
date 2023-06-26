@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+    /* Colors: */
+    --unnamed-color-f51919: #F51919;
+    --unnamed-color-f2fbff: #F2FBFF;
+    --unnamed-color-2bbb10: #2BBB10;
+    --unnamed-color-f8f9fb: #F8F9FB;
+    --unnamed-color-b9b9b9: #B9B9B9;
+    --unnamed-color-ffb701: #FFB701;
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-color-085afb: #085AFB;
+    --unnamed-color-121212: #121212;
+    --unnamed-color-000000: #000000;
+    /* Font/text values */
+    --unnamed-font-family-lato: Lato;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-size-12: 12px;
+    --unnamed-font-size-14: 14px;
+    --unnamed-font-size-18: 18px;
+    --unnamed-font-size-20: 20px;
+    --unnamed-font-size-24: 24px;
+    --unnamed-font-size-40: 40px;
+    --unnamed-font-size-48: 48px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-20: 20px;
+    --unnamed-line-spacing-30: 30px;
+    --unnamed-line-spacing-35: 35px;
+    --unnamed-line-spacing-48: 48px;
+    --unnamed-line-spacing-57: 57px;
+    --unnamed-line-spacing-19-420000076293945: 19.420000076293945px;
+}
+
+.herobackground {
+    background-image: url('/src/assets/HeroBackground.png');
+    background-repeat: no-repeat;
+}
+
+.coursesBackground {
+    background-image: url("/src/assets/MaskGroup.png");
+    background-repeat: no-repeat;
+}
+
+.coursesBackgroundContainer {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 16px 40px #C1CCDE;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.yelloLine {
+    border-radius: 100px;
+}
+
+.blueline {
+    background-color: #085AFB;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.boxshadowform {
+    box-shadow: 0px 10px 20px #121D54C7;
+}
+
+.placedCard {
+    box-shadow: 0px 0px 20px #085AFB29;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.frow {
+    background: #F8F9FB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.rightcontainer {
+    background: #F8F9FB 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.courseButton {
+    background: #0D6EFD 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.classesCard {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    box-shadow: 0px 0px 20px #085AFB29;
+    border-radius: 20px;
+}
+
+.reviewCard {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.classesCardBottomBorderGreen {
+    border-bottom: 7px solid #2BBB10;
+}
+
+.classesCardBottomBorderYellow {
+    border-bottom: 7px solid #FFB701;
+}
+
+.certificateBackground {
+    background-image: url("/src/assets/CertificateBackground.png");
+    background-repeat: no-repeat;
+}
+
+.blueLinecertificate {
+    background: #0D6EFD 0% 0% no-repeat padding-box;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 1;
+}
+
+.reviewCardBorderPurple {
+    border-bottom: 5px solid #CD55FF;
+}
+
+.reviewCardBorderGreen {
+    border-bottom: 5px solid #45E676;
+}
+
+.reviewCardBorderYellow {
+    border-bottom: 5px solid #FFB701;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.show {
+    height: auto;
+    max-height: 9999px;
+}
+
+.footerBorder {
+    border-bottom: 1px solid #B9B9B9;
+    opacity: 1;
+}
